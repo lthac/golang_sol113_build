@@ -17,5 +17,10 @@ git pull
 CC=/usr/bin/gcc GOROOT_BOOTSTRAP=/usr/local/go ./all.bash
 mv /usr/local/go/ /usr/local/go1.4
 mv ~/code/go/ /usr/local/go1.10
+
+root@solaris:~# uname -a
+SunOS solaris 5.11 11.3 i86pc i386 i86pc
+root@solaris:~# /usr/local/go1.10/bin/go version
+go version go1.10.1 solaris/amd64
 ```
 
